@@ -1,0 +1,14 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.country{
+    border:2px solid blueviolet;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 30px;
+}
